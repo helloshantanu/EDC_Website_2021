@@ -23,7 +23,7 @@ h5,
 h6 {
 	color: #111111;
 	margin: 0;
-	font-weight: 500;
+	font-weight: 300;
 	font-family: 'Rubik', sans-serif;
 }
 
@@ -49,11 +49,11 @@ h5 {
 }
 
 h6 {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 	color: #636363;
 	line-height: 1.6;
 }
@@ -133,8 +133,8 @@ ol {
 	text-transform: uppercase;
 	background: #cd0a0a;
 	color: #fff;
-	padding: 18px 30px;
-	font-size: 14px;
+	padding: 24px 34px;
+	font-size: 20px;
 	font-weight: 500;
 	line-height: 14px;
 	border-radius: 50px;
@@ -372,26 +372,33 @@ ol {
 }
 
 .hs-item .hs-subtitle {
-	font-size: 16px;
+	font-size: 24px;
 	text-transform: uppercase;
-	color: #0f3460;
+	background-color: #0f3460;
+	color: #fff;
 	font-weight: 500;
 	letter-spacing: 2px;
 	margin-bottom: 30px;
 	position: relative;
 	opacity: 0;
 	top: 50px;
+	text-emphasis: wrap;
+	padding: 8px 16px;
+	border-radius: 4px;
 }
 
 .hs-item .hs-title {
 	color:	#fff;
 	background-color: #cd0a0a;
-	font-size: 48px;
+	font-size: 42px;
 	margin-bottom: 25px;
 	position: relative;
 	left: 150px;
 	opacity: 0;
 	text-transform: uppercase;
+	text-emphasis: wrap;
+	padding: 8px 16px;
+	border-radius: 4px;
 }
 
 .hs-item .hs-des {
@@ -404,7 +411,7 @@ ol {
 }
 
 .hs-item .site-btn {
-	margin-top: 30px;
+	margin-top: 15px;
 	opacity: 0;
 	top: 50px;
 }
@@ -592,7 +599,7 @@ ol {
 	left: 0;
 	top: 0;
 	background: #000;
-	opacity: 0.8;
+	opacity: 0.6;
 }
 
 .enroll-section .container {
@@ -685,7 +692,6 @@ ol {
 	text-align: center;
 	font-size: 13px;
 	text-transform: uppercase;
-	font-weight: bold;
 	color: #fff;
 	display: inline-block;
 	border-radius: 50px;
@@ -695,6 +701,10 @@ ol {
 .course-item .course-info {
 	text-align: center;
 	margin: 0 -15px;
+}
+
+.course-info__desc {
+	padding: 0 10px;
 }
 
 .course-item .course-info .date {
